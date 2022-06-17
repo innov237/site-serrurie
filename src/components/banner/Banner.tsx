@@ -41,7 +41,7 @@ const Banner: React.FC = () => (
 
             </div>
             <div className="col-md-4 d-flex justify-content-center align-items-center">
-                <a href="#contact"><button className="btn btn-more">Commandez</button></a>
+                <a href="#contact"><button className="btn btn-more text-color">Commandez</button></a>
             </div>
         </div>
 

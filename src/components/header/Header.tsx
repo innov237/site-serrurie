@@ -39,8 +39,8 @@ export default function Header() {
                 <div className="navbar navbar-expand">
                     <ul className="nav navbar-nav navbar-left">
                         <li className="nav-item"><a className="nav-link" href="/">Acceuil</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#services">Commande</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#portfolio">Nos services</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#commande">Commande</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#service">Nos services</a></li>
                         <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
                         <li className="nav-item"><a className="nav-link" href="#about">A propos</a></li>
                     </ul>

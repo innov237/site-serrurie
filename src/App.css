@@ -15,5 +15,16 @@
 }
 
 .primary-bg{
-    background-color: #F39220;
+    background-color: #F39220 !important;
+}
+input{
+    border: 1px solid #F39220 !important;
+}
+textarea{
+    border: 1px solid #F39220 !important;
+
+}
+
+.text-color{
+    color: black !important;
 }

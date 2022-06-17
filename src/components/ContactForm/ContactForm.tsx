@@ -33,17 +33,17 @@ const ContactForm: React.FC = () => {
                     <h1 className="pb-5">Contactez-nous</h1>
                     <Form onSubmit={sendEmail} id="contact-form">
                         <Form.Group controlId="formBasicEmail">
-                            <Form.Label>Nom</Form.Label>
+                            <Form.Label className="text-secondary">Nom</Form.Label>
                             <Form.Control type="text" name="name" />
                         </Form.Group>
 
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Label>Email</Form.Label>
+                            <Form.Label className="text-secondary">Email</Form.Label>
                             <Form.Control type="text" name="email" />
                         </Form.Group>
 
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Label>Message</Form.Label>
+                            <Form.Label className="text-secondary">Message</Form.Label>
                             <Form.Control as="textarea" rows={5} type="text" name="message" />
                         </Form.Group>
                         <br />

@@ -23,6 +23,7 @@ import carCity from '../../images/car-city.png';
 import './Home.css';
 import { DividerVertical } from '../../components/dividerVertical/DividerVertical';
 import TypeCourseCard from '../../components/TypeCourseCard/TypeCourseCard';
+import ContactForm from '../../components/ContactForm/ContactForm';
 
 var serviceData = [
     {
@@ -78,7 +79,7 @@ var typeCourse = [
 const Home: React.FC = () => (
     <div>
         <Banner></Banner>
-        <div className="footer conntainer-fluid section2">
+        <div className="footer conntainer-fluid section2" id="about">
             <DividerVertical></DividerVertical>
             <div className="container pb-4 pt-5 d-flex align-items-center justify-content-center">
                 <div className="row align-items-center">
@@ -139,6 +140,7 @@ const Home: React.FC = () => (
                 </div>
             </div>
         </div> */}
+        <ContactForm></ContactForm>
     </div>
 );
 

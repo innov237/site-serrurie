@@ -1,0 +1,45 @@
+
+
+.main-cmd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://images.pexels.com/photos/8636617/pexels-photo-8636617.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  
+}
+
+.cmd {
+  background-color: #f391207a;
+  padding: 20px;
+  color: white !important;
+}
+.map {
+    padding-top: 100px;
+  max-width: 1200px;
+}
+
+button{
+    border: 1px solid #F39220 !important;
+    background-color: #ffffff !important;
+    color: white;
+    
+}
+
+button:hover{
+    
+    background-color: #F39220 !important;
+    color: white;
+}
+
+input::placeholder{
+
+}
+
+label{
+    font-size: 18px;
+}
+
