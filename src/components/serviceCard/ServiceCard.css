@@ -1,0 +1,40 @@
+.card {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border: none;
+    padding: 0px; 
+    min-height: 355px;
+}
+
+.card h1 {
+    font-size: 28px;
+}
+
+.card img {
+    margin-bottom: 5px;
+    width: 70px;
+    margin-bottom: 0px;
+}
+
+.card p {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.divider {
+    height: 10px;
+    width: 60px;
+    background-color: #FFBD59;
+    border-radius: 20px;
+    border: 1px dashed #2ba5e6;
+}
+
+.circular-border{
+    border: 1px dashed #2ba5e6;
+    padding: 5px;
+    border-radius: 5px;
+}

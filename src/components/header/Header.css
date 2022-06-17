@@ -1,0 +1,113 @@
+.navbar-lg{
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar {
+  background-color: #fff;
+  color: white;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  height: 110px;
+}
+
+.logo {
+  height: 80px;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 25px;
+  color: #0F377B;
+}
+
+.nav-link:hover {
+  color: #FFBD59;
+}
+
+.nav-link:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px black;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.nav-link:hover:after {
+  transform: scaleX(1);
+}
+
+.nav-link.fromRight:after {
+  transform-origin: 100% 50%;
+}
+
+.nav-link.fromLeft:after {
+  transform-origin: 0% 50%;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.menu__collaps {
+  background-color: #272361fd;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  display: none;
+}
+
+.menu__collaps__items {
+  color: white;
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+.menu__collaps__items li {
+  padding-bottom: 20px;
+  list-style-type: none;
+}
+
+.close__icon {
+  margin-top: 100px;
+  height: 50px;
+  width: 50px;
+  color: white;
+
+  font-size: 50px;
+  float: right;
+}
+
+.menu__collaps__items a {
+  color: #fff;
+}
+/**
+ RESPOSIVE
+**/
+
+@media screen and (max-width: 750px) {
+  /* Rédigez vos propriétés CSS ici */
+  .navbar-expand {
+    display: none;
+  }
+
+  .menu__collaps {
+    display: none;
+    height: 100vh;
+    margin-top: 100px;
+  }
+
+  .nav-menu {
+    display: block;
+    display: flex;
+  }
+
+  .logo {
+    height: 50px;
+  }
+  /* body {
+    overflow: hidden;
+  } */
+}

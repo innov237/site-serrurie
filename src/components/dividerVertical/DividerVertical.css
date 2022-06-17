@@ -1,0 +1,6 @@
+.divider-vertical {
+    width: 500px;
+    background-image: radial-gradient(rgb(8, 22, 81) 5%, transparent 0);
+    background-size: 30px 30px;
+    height: 50px;
+}

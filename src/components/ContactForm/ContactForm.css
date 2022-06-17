@@ -1,0 +1,17 @@
+.form-container{
+    padding: 50px;
+    color: white;
+}
+
+.form-control{
+    height: 55px;
+    border-radius: 20px;
+    padding-left:20px;
+    font-size: 20px;
+}
+
+.form-label{
+    color: black;
+    margin-left: 25px;
+    font-size: 20px;
+}

@@ -1,0 +1,13 @@
+.app__img{
+    object-fit: contain;
+    background-color: #C6D9F1;
+}
+
+.badge{
+    top: 10px;
+    position: absolute;
+    background-color: #13499f9d;
+    color: #F88621 !important;
+    padding: 40px 30px;
+    font-weight:bold;
+}
