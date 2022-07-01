@@ -1,5 +1,5 @@
 .banner-div {
-    background-image:url("https://media.istockphoto.com/photos/cheerful-delivery-man-picture-id480750456?k=20&m=480750456&s=612x612&w=0&h=A58tQ8iT3CLZDdf-Mz6E8XkAJty-kXXQ-NHJrNfgcA4=");
+    background-image: url("../../images/hero2-img.jpg");
     background-position: bottom right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@
 }
 
 h1 {
-    font-size:60px;
+    font-size: 60px;
 }
 
 .hero__subTitle {
@@ -66,7 +66,7 @@ h1 {
 
 .owl-carousel .active span {
     width: 100%;
-    background-color: #FFBD59 !important;
+    background-color: #ffbd59 !important;
     display: block;
     -webkit-transition: opacity 200ms ease;
     -moz-transition: opacity 200ms ease;
@@ -92,7 +92,7 @@ h1 {
 
 .btn:hover {
     background-color: #fff;
-    color: #FFBD59;
+    color: #ffbd59;
 }
 
 .contact-usBtn {
@@ -110,7 +110,7 @@ h1 {
     font-family: "Heebo", Helvetica, Arial, sans-serif;
     color: #fafafa;
     letter-spacing: 0.2em;
-    background-color: #FFBD59;
+    background-color: #ffbd59;
     border-radius: 100px;
     padding: 10px 100px 10px 100px;
     box-shadow: 1px 0px 1px 3px rgba(255, 255, 255, 0.418);
@@ -189,22 +189,28 @@ h1 {
 
 @media screen and (max-width: 750px) {
     /* Rédigez vos propriétés CSS ici */
+
+    .btn-more {
+        margin-bottom: 50px !important;
+        margin-bottom: 20px !important;
+    }
+
     .banner-div {
-    
-        padding: 10px;
-        padding-top: 130px;
+        padding: 5px !important;
+        padding-top: 100px !important;
         /* background-color: red !important; */
-        background-image:  linear-gradient(to left, #ffbd5925 20%,#0f377ba8 80%), url("https://media.istockphoto.com/photos/cheerful-delivery-man-picture-id480750456?k=20&m=480750456&s=612x612&w=0&h=A58tQ8iT3CLZDdf-Mz6E8XkAJty-kXXQ-NHJrNfgcA4=");
+        background-image: linear-gradient(to left, #f29a16b3 10%, #e3860ce2 90%), url("../../images/hero2-img.jpg");
         background-position: bottom center;
         background-size: cover;
         color: white !important;
+        height: max-content;
     }
 
     .slider-content {
         color: white !important;
     }
 
-    .banner-image-row{
+    .banner-image-row {
         padding: 70px !important;
         display: none !important;
     }
@@ -212,9 +218,12 @@ h1 {
     h1 {
         font-size: 40px;
     }
+    .hero__title {
+        width: 100% !important;
+    }
 
     .hero__subTitle {
-        max-width: 20.125em;
+        max-width: 25.125em;
         margin-bottom: 1rem;
         font-family: 16px "Libre Franklin", sans-serif;
         font-size: 20px;
@@ -232,5 +241,9 @@ h1 {
         width: 100%;
         padding: 10px 40px 10px 40px;
         box-shadow: 1px 0px 1px 3px rgba(255, 255, 255, 0.418);
+    }
+
+    .dot-div{
+        display: none;
     }
 }

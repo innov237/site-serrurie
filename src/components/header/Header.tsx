@@ -3,12 +3,15 @@ import './Header.css';
 import logo from '../../images/logo-bn.png';
 import iconMenu from '../../images/menu.svg';
 import iconClose from '../../images/close.svg';
+import Lang from '../../enums/Lang';
+import { useTranslation } from 'react-i18next';
+
 
 export default function Header() {
 
     const [shoMenu, setstate] = useState(false);
     const [overflowType, setstateOverFlow] = useState("block");
-
+    const { t } = useTranslation();
 
     const css = `
     body {
@@ -38,16 +41,24 @@ export default function Header() {
 
                 <div className="navbar navbar-expand">
                     <ul className="nav navbar-nav navbar-left">
-                        <li className="nav-item"><a className="nav-link" href="/">Acceuil</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#commande">Commande</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#service">Nos services</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#about">A propos</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#">{t('menu.home')}</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#commande">{t('menu.booking')}</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#service">{t('menu.services')}</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#contact">{t('menu.contact')}</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#about">{t('menu.about')}</a></li>
+                        <div className="pb-5 nav-item">
+                            <Lang color={false} />
+                        </div>
                     </ul>
                 </div>
                 <div className="navbar nav-menu">
-                    <ul className="nav navbar-nav navbar-left" onClick={showMenuf}>
-                        <li className="nav-item"><img src={!shoMenu ? iconMenu : iconClose} className="menu-icon" style={{ width: "50px" }} /></li>
+                    <ul className="nav navbar-nav navbar-left">
+                        <div className="row">
+                            <div className="col">
+                                <li className="nav-item mr-2" style={{ float: 'left' }}><Lang color={false} /></li>
+                                <li onClick={showMenuf} className="nav-item" style={{ float: 'right' }}><img src={!shoMenu ? iconMenu : iconClose} className="menu-icon" style={{ width: "50px" }} /></li>
+                            </div>
+                        </div>
                     </ul>
                 </div>
 
@@ -58,27 +69,27 @@ export default function Header() {
                     <ol>
                         <li>
                             <a href="/" onClick={showMenuf}>
-                                Acceuil
+                                {t('menu.home')}
                             </a>
                         </li>
                         <li>
-                            <a href="#services" onClick={showMenuf}>
-                                Services
+                            <a href="#commande" onClick={showMenuf}>
+                                {t('menu.booking')}
                             </a>
                         </li>
                         <li>
-                            <a href="#portfolio" onClick={showMenuf}>
-                                Transporteurs
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#contact" onClick={showMenuf}>
-                                Contact
+                            <a href="#service" onClick={showMenuf}>
+                                {t('menu.services')}
                             </a>
                         </li>
                         <li>
                             <a href="#contact" onClick={showMenuf}>
-                                A propos
+                                {t('menu.contact')}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about" onClick={showMenuf}>
+                                {t('menu.about')}
                             </a>
                         </li>
                     </ol>

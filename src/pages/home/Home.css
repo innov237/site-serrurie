@@ -92,7 +92,7 @@ p {
 }
 
 .section2{
-    background-color: #333333 !important;
+    background-color: #1C1C1C !important;
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
@@ -104,7 +104,8 @@ p {
 }
 
 .section5{
-    background-image:url("https://www.nms-distribution.fr/wp-content/uploads/sites/7/2021/03/Bandeau-website-neutre.png");
+    /* background-image:url("https://www.nms-distribution.fr/wp-content/uploads/sites/7/2021/03/Bandeau-website-neutre.png"); */
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://transic.theme-land.com/wordpress/wp-content/uploads/2021/05/inner_bg_1-1-1.jpg");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;

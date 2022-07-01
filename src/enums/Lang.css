@@ -1,0 +1,18 @@
+.menu__item__link .MuiSelect-selectMenu {
+    height: auto;
+    overflow: hidden;
+    min-height: 1.1876em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 70px !important;
+    border-bottom: 0px !important;
+}
+
+.text-black{
+    color: black !important;
+}
+
+.flag-sm{
+    width: 20px;
+    height: 20px;
+}

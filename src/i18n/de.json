@@ -1,0 +1,46 @@
+{
+    "common": {
+        "translate-button": "EN",
+        "translated-text": "Anglais",
+        "bookNow": "Bestellung",
+        "our": "Unser",
+        "service": "Dienste",
+        "us": "Wir",
+        "contact-us": "Kontakt"
+    },
+    "menu": {
+        "home": "Empfang",
+        "booking": "Befehle",
+        "services": "Dienste",
+        "about": "Über",
+        "contact": "Kontakt"
+    },
+    "hero": {
+        "slideText1": "Windam der Express-Lieferservice in Luxemburg",
+        "slideSubText1": "...",
+        "slideText2": "Ihr zuverlässiger Partner für alle Ihre Sendungen",
+        "slideSubText2": "..."
+    },
+    "service": {
+        "title1": "Expressversand",
+        "content1": "Die Geschwindigkeit der Sendungsbewegung wird dank der ständigen Arbeit der Kuriere erreicht. Um ein Paket zu versenden, ist es überhaupt nicht notwendig, zur Post zu gehen, ein Windam-Mitarbeiter kann es an jedem für den Kunden geeigneten Ort abholen.",
+        "title2": "Distribution/Paket",
+        "content2": "Wir garantieren Ihnen Geschwindigkeit, Qualität, niedrigsten Preis, Service und Bequemlichkeit. ",
+        "title3": "Mail-abruf",
+        "content3": "Vereinfachen Sie Ihre Aufgabe dank Windam, um all Ihre Verteilungen von Paketen, Geschenken, Einladungen in Luxemburg und im Ausland zu verwalten."
+    },
+    "about": {
+        "title": "Über",
+        "content1": "Windam ist ein schneller Versand von Dokumenten und Waren in Luxemburg und im Ausland. Wir überwachen ständig die Entwicklung des Marktes für Expresskurierdienste und bieten umfassende logistische Unteraufträge für Unternehmen, So können Sie sich als Kunde von allen Aufgaben im Zusammenhang mit der Lieferung und Lagerung Ihrer Bestellungen vollständig befreien.",
+        "content2": "Als unser Kunde werden Sie und die Logistik Ihres Unternehmens zu einer vorrangigen Aufgabe für uns, deren Lösung darin besteht, ein hohes Serviceniveau in Ihrem Unternehmen zu schaffen!"
+    },
+    "downloadApp": {
+        "title": "Laden Sie die App herunter",
+        "content": "Die Windam Express Delivery App spart Ihnen Zeit und Energie."
+    },
+    "footer": {
+        "content": "Die Geschwindigkeit der Bewegung von Sendungen wird dank der ständigen Arbeit der Kuriere erreicht. Um ein Paket zu versenden, ist es überhaupt nicht notwendig, zur Post zu gehen, ein Windam-Mitarbeiter kann es an jedem für den Kunden geeigneten Ort abholen.",
+        "adress": "Anschrift",
+        "contact": "Kontakt"
+    }
+}

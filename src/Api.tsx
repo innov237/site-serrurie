@@ -1,6 +1,6 @@
-const endPoint = 'lepetitecrivain.com/lugginapi/public/api/';
+const endPoint = 'windam.com/public/api/v1';
 
-export const getAll = async (route: string) => {
+export const getAllServices = async (route: string) => {
     const data = await (await fetch(endPoint + route)).json();
     return data.results.map()
 }

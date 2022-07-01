@@ -30,7 +30,7 @@ const ContactForm: React.FC = () => {
         <div className="container-fluid contact-section no-padding">
             <div className="row d-fex align-items-end justify-content-center">
                 <div className="col-md-8 form-container">
-                    <h1 className="pb-5">Contactez-nous</h1>
+                    <h1 className="pb-5 text-secondary hidden">Ecrivez-nous</h1>
                     <Form onSubmit={sendEmail} id="contact-form">
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label className="text-secondary">Nom</Form.Label>

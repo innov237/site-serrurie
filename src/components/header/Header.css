@@ -52,7 +52,10 @@
 }
 
 .menu__collaps {
-  background-color: #272361fd;
+  background-image: linear-gradient(to left, #f29a16e5 20%, #e3860cf3 80%), url("../../images/hero2-img.jpg");
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -105,7 +108,7 @@
   }
 
   .logo {
-    height: 50px;
+    height: 60px;
   }
   /* body {
     overflow: hidden;

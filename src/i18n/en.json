@@ -1,0 +1,46 @@
+{
+    "common": {
+        "translate-button": "EN",
+        "translated-text": "Anglais",
+        "bookNow": "Order",
+        "our": "Nos",
+        "service": "Services",
+        "us": "Us",
+        "contact-us": "Contact"
+    },
+    "menu": {
+        "home": "Home",
+        "booking": "Booking",
+        "services": "Our services",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "hero": {
+        "slideText1": "Windam the express delivery service in Luxembourg",
+        "slideSubText1": "...",
+        "slideText2": "Your trusted partner for all your shipments",
+        "slideSubText2": "...."
+    },
+    "service": {
+        "title1": "Express delivery",
+        "content1": "La vitesse de déplacement des envois est obtenue grâce au travail constant des coursiers. Pour envoyer un colis, il n'est pas du tout nécessaire de se rendre au bureau de poste, un employé Windam peut le récupérer à n'importe quel endroit pratique pour le client.",
+        "title2": "Distribution/Parcels",
+        "content2": "We guarantee you speed, quality, lowest prices, service and convenience. ",
+        "title3": "Change of mail",
+        "content3": "Simplify the task with Windam to manage all your packages, gifts, invitations in Luxembourg and abroad."
+    },
+    "about": {
+        "title": "About us",
+        "content1": "Windam is a fast delivery service for documents and goods in Luxembourg and abroad, we continuously monitor the evolution of the express mail services market and we provide comprehensive logistics outsourcing for companies, This allows you as a customer to fully offload all tasks related to the delivery and storage of your orders.",
+        "content2": "By becoming our customer, you and the logistics of your company become for us a priority task whose solution will be to create a high level of service within your company!"
+    },
+    "downloadApp": {
+        "title": "Download the app",
+        "content": "The Windam express delivery service app will save you time and energy."
+    },
+    "footer": {
+        "content": "The speed of movement of shipments is achieved thanks to the constant work of the couriers. To send a package, it is not at all necessary to go to the post office, a Windam employee can pick it up at any convenient place for the customer.",
+        "adress": "Adress",
+        "contact": "Contact"
+    }
+}

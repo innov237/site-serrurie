@@ -1,45 +1,55 @@
-
-
 .main-cmd {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-image: url("https://images.pexels.com/photos/8636617/pexels-photo-8636617.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://images.pexels.com/photos/8636617/pexels-photo-8636617.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
-  
 }
 
 .cmd {
-  background-color: #f391207a;
+  background-color: rgba(243, 145, 32, 0.826);
   padding: 20px;
   color: white !important;
+  border-radius:20px;
 }
+
 .map {
-    padding-top: 100px;
-  max-width: 1200px;
+  padding-top: 100px;
+  /* max-width: 1200px !important; */
 }
 
-button{
-    border: 1px solid #F39220 !important;
-    background-color: #ffffff !important;
-    color: white;
-    
+button {
+  border: 1px solid #f39220 !important;
+  background-color: #ffffff !important;
+  color: white;
 }
 
-button:hover{
-    
-    background-color: #F39220 !important;
-    color: white;
+button:hover {
+  background-color: #f39220 !important;
+  color: white;
 }
 
-input::placeholder{
-
+input::placeholder {
 }
 
-label{
-    font-size: 18px;
+label {
+  font-size: 18px;
 }
 
+.form-group > div{
+  margin-bottom: 15px !important;
+}
+
+@media screen and (max-width: 750px) {
+  /* Rédigez vos propriétés CSS ici */
+  .cmd {
+    padding: 10px;
+  }
+
+  .main-cmd {
+    padding: 40px  5px;
+  }
+}
