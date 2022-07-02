@@ -39,7 +39,7 @@ const Service: React.FC = () => {
 
   return <>
     <div className="content-s" ref={myRef}>
-      <Hero subTitle={t('common.our')} title={t('common.service')} />
+      <Hero subTitle="|" title={t('common.service')} />
       <section>
         <div className="services-row container-fluid primary-bg">
           <DividerVertical></DividerVertical>

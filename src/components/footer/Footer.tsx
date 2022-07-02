@@ -46,7 +46,7 @@ export const Footer = () => {
                     </div>
 
                     <div className="col-md-12 text-center pt-5">
-                        <p> © 2022 Windam. All rights reserved.</p>
+                        <p>{t('common.copyright')}</p>
                     </div>
                 </div>
 

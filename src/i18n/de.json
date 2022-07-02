@@ -6,7 +6,8 @@
         "our": "Unser",
         "service": "Dienste",
         "us": "Wir",
-        "contact-us": "Kontakt"
+        "contact-us": "Kontaktieren Sie uns",
+        "copyright": "© 2022 Windam. Alle Rechte vorbehalten."
     },
     "menu": {
         "home": "Empfang",
@@ -22,6 +23,7 @@
         "slideSubText2": "..."
     },
     "service": {
+        "title":"Nos Dienstleistungen",
         "title1": "Expressversand",
         "content1": "Die Geschwindigkeit der Sendungsbewegung wird dank der ständigen Arbeit der Kuriere erreicht. Um ein Paket zu versenden, ist es überhaupt nicht notwendig, zur Post zu gehen, ein Windam-Mitarbeiter kann es an jedem für den Kunden geeigneten Ort abholen.",
         "title2": "Distribution/Paket",
@@ -34,8 +36,24 @@
         "content1": "Windam ist ein schneller Versand von Dokumenten und Waren in Luxemburg und im Ausland. Wir überwachen ständig die Entwicklung des Marktes für Expresskurierdienste und bieten umfassende logistische Unteraufträge für Unternehmen, So können Sie sich als Kunde von allen Aufgaben im Zusammenhang mit der Lieferung und Lagerung Ihrer Bestellungen vollständig befreien.",
         "content2": "Als unser Kunde werden Sie und die Logistik Ihres Unternehmens zu einer vorrangigen Aufgabe für uns, deren Lösung darin besteht, ein hohes Serviceniveau in Ihrem Unternehmen zu schaffen!"
     },
+    "contactForm": {
+        "title": "Schreiben",
+        "name": "Name",
+        "secondName": "Vorname",
+        "city": "Stadt",
+        "email": "Email",
+        "message": "Nachricht",
+        "send": "Senden"
+    },
+    "bookingForm": {
+        "title": "Bestellung",
+        "message": "Was sind Ihre Bedürfnisse ?",
+        "date": "Datum der Aufforderung",
+        "time": "Zeitliche Aufforderung",
+        "booking": "Bestellung"
+    },
     "downloadApp": {
-        "title": "Laden Sie die App herunter",
+        "title": "App herunterladen",
         "content": "Die Windam Express Delivery App spart Ihnen Zeit und Energie."
     },
     "footer": {

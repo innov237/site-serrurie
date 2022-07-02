@@ -56,17 +56,13 @@ h1 {
     margin-top: 10px;
 }
 
-.dot-div span {
-    border-radius: 20px;
-    padding: 8px 70px 8px 2px;
-    border: none;
-    display: inline-flex;
-    float: left;
+.active span {
+    background-color: #ffbd59 !important;
 }
 
-.owl-carousel .active span {
+.mdot-div span {
     width: 100%;
-    background-color: #ffbd59 !important;
+    background-color: #d1d1d5;
     display: block;
     -webkit-transition: opacity 200ms ease;
     -moz-transition: opacity 200ms ease;
@@ -243,7 +239,7 @@ h1 {
         box-shadow: 1px 0px 1px 3px rgba(255, 255, 255, 0.418);
     }
 
-    .dot-div{
+    .mdot-div {
         display: none;
     }
 }

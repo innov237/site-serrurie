@@ -49,7 +49,7 @@ const Home: React.FC = () => {
         <div className="services-row container-fluid section5">
             <DividerVertical></DividerVertical>
             <div className="container">
-                <h1 className="text-center mt-5 text-white">Nos services</h1>
+                <h1 className="text-center mt-5 text-white">{t('service.title')}</h1>
                 <div className="row pt-5">
                     {serviceData.map((data) => (
                         <div className="col-md-4">

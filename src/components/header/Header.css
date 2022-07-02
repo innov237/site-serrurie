@@ -92,6 +92,11 @@
 
 @media screen and (max-width: 750px) {
   /* Rédigez vos propriétés CSS ici */
+
+  .hidden-sm{
+    display: none;
+  }
+
   .navbar-expand {
     display: none;
   }
@@ -103,12 +108,15 @@
   }
 
   .nav-menu {
-    display: block;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
 
   .logo {
-    height: 60px;
+    height: 50px;
   }
   /* body {
     overflow: hidden;

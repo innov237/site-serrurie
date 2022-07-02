@@ -55,9 +55,9 @@ const Lang: React.FC<Color> = (props) => {
                 inputRef={register}
                 onChange={(e: any) => changeLanguage(e)}
             >
+            <MenuItem value={Language.FR} selected={true}> <img src={Franceflag} alt="fr" className="flag-sm" /><span className="text-black"> FR</span></MenuItem>
                 <MenuItem value={Language.EN}> <img src={Usaflag} alt="en" className="flag-sm" /><span className="text-black"> EN</span></MenuItem>
-                <MenuItem value={Language.FR} selected={true}> <img src={Franceflag} alt="fr" className="flag-sm" /><span className="text-black"> FR</span></MenuItem>
-                <MenuItem value={Language.DE} selected={true}> <img src={Allemandflag} alt="fr" className="flag-sm" /><span className="text-black"> DE</span></MenuItem>
+                <MenuItem value={Language.DE}> <img src={Allemandflag} alt="de" className="flag-sm" /><span className="text-black"> DE</span></MenuItem>
 
             </Select>
 

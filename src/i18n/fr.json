@@ -4,9 +4,10 @@
         "translated-text": "Anglais",
         "bookNow": "commandez",
         "our": "Nos",
-        "service": "Services",
+        "service": "Nos Services",
         "us": "Nous",
-        "contact-us": "Contactez"
+        "contact-us": "Nous Contactez",
+        "copyright":"© 2022 Windam. Tous droits réservés."
     },
     "menu": {
         "home": "Accueil",
@@ -22,6 +23,7 @@
         "slideSubText2": "..."
     },
     "service": {
+        "title":"Nos services",
         "title1": "Livraison express",
         "content1": "La vitesse de déplacement des envois est obtenue grâce au travail constant des coursiers. Pour envoyer un colis, il n'est pas du tout nécessaire de se rendre au bureau de poste, un employé Windam peut le récupérer à n'importe quel endroit pratique pour le client.",
         "title2": "Distribution/Colis ",
@@ -34,13 +36,29 @@
         "content1": "Windam est un service de livraison rapide de documents et de marchandises au Luxembourg et à l'étranger, nous surveillons en permanence l’évolution du marché des services de courrier express et nous fournissons une sous-traitance logistique complète pour les entreprises, ce qui vous permet en tant que client de vous décharger entièrement de toutes les tâches liées à la livraison et au stockage de vos commandes.",
         "content2": "En devenant notre client, vous et la logistique de votre entreprise devenez pour nous une tâche prioritaire dont la solution sera de créer un haut niveau de service au sein de votre entreprise !"
     },
+    "contactForm": {
+        "title": "Ecrivez-nous",
+        "name": "Nom",
+        "secondName":"Prénom",
+        "city":"Ville",
+        "email": "Email",
+        "message": "Message",
+        "send": "Envoyer"
+    },
+    "bookingForm": {
+        "title": "Commande",
+        "message": "Quel est votre besion ?",
+        "date": "Date de sollicitation",
+        "time": "Heure de sollicitation",
+        "booking": "Commmander"
+    },
     "downloadApp": {
         "title": "Télécharger l'application",
         "content": "L’application Windam service de livraison express vous permettra de gagner en temps et en énergie."
     },
     "footer": {
         "content": "La vitesse de déplacement des envois est obtenue grâce au travail constant des coursiers. Pour envoyer un colis, il n’est pas du tout nécessaire de se rendre au bureau de poste, un employé de Windam peut le récupérer à n’importe quel endroit pratique pour le client.",
-        "adress": "Adresse",
+        "adress": "Addresse",
         "contact": "Contact"
     }
 }

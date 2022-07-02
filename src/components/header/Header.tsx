@@ -35,7 +35,7 @@ export default function Header() {
                 {css}
             </style>
             <nav className="navbar navbar-lg conntainer-fluid" role="navigation">
-                <div className="navbar">
+                <div className="navbar hidden-sm">
                     <a className="navbar-brand" href="#"><img src={logo} alt="logo" className="logo" /></a>
                 </div>
 
@@ -51,15 +51,14 @@ export default function Header() {
                         </div>
                     </ul>
                 </div>
-                <div className="navbar nav-menu">
-                    <ul className="nav navbar-nav navbar-left">
-                        <div className="row">
-                            <div className="col">
-                                <li className="nav-item mr-2" style={{ float: 'left' }}><Lang color={false} /></li>
-                                <li onClick={showMenuf} className="nav-item" style={{ float: 'right' }}><img src={!shoMenu ? iconMenu : iconClose} className="menu-icon" style={{ width: "50px" }} /></li>
-                            </div>
-                        </div>
-                    </ul>
+                <div className="nav-menu">
+                    <div>
+                        <a className="navbar-brand" href="#"><img src={logo} alt="logo" className="logo" /></a>
+                    </div>
+                    <div className="d-flex justify-content-center align-items-center">
+                        <li className="nav-item mb-4" style={{ float: 'left' }}><Lang color={false} /></li>
+                        <li onClick={showMenuf} className="nav-item" style={{ float: 'right' }}><img src={!shoMenu ? iconMenu : iconClose} className="menu-icon" style={{ width: "50px" }} /></li>
+                    </div>
                 </div>
 
             </nav>
