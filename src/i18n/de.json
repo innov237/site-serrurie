@@ -47,7 +47,7 @@
     },
     "bookingForm": {
         "title": "Bestellung",
-        "message": "Was sind Ihre Bedürfnisse ?",
+        "message": "Was brauchen Sie ?",
         "date": "Datum der Aufforderung",
         "time": "Zeitliche Aufforderung",
         "booking": "Bestellung"

@@ -47,7 +47,7 @@
     },
     "bookingForm": {
         "title": "Commande",
-        "message": "Quel est votre besion ?",
+        "message": "Quel est votre besoin ?",
         "date": "Date de sollicitation",
         "time": "Heure de sollicitation",
         "booking": "Commmander"
