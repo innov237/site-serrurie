@@ -47,9 +47,9 @@
     },
     "bookingForm": {
         "title": "Order",
-        "message": "What is your needs ?",
-        "date": "date of solicitation",
-        "time": "Sollication time",
+        "message": "What do you need ?",
+        "date": "Solicitation date",
+        "time": "Solicitation time",
         "booking": "Order"
     },
     "downloadApp": {
