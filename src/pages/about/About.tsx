@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "./About.css";
+import "./About2.css";
 import AboutComponent from "../../components/about/AboutComponent";
 const About: React.FC = () => {
     
