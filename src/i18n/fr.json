@@ -18,9 +18,9 @@
     },
     "hero": {
         "slideText1": "Windam le service de livraison express au Luxembourg",
-        "slideSubText1": "...",
+        "slideSubText1": "",
         "slideText2": "Votre partenaire de confiance pour tous vos envois",
-        "slideSubText2": "..."
+        "slideSubText2": ""
     },
     "service": {
         "title":"Nos services",
