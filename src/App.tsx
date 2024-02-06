@@ -17,23 +17,23 @@ import About from './pages/about/About';
 function App() {
   return (
     <>
-        <div className="App">
-      <Header></Header>
-      <HashRouter>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/accueil" component={Home} />
-          <Route exact path="/commande" component={Commande} />
-          <Route exact path="/service" component={Service} />
-          <Route exact path="/a-propos" component={Privacy} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/about" component={About} />
-        </Switch>
-      </HashRouter>
-    
-      
-      <Footer></Footer>
-    </div>
+      <div className="App">
+        <Header></Header>
+        <HashRouter>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/accueil" component={Home} />
+            <Route exact path="/commande" component={Commande} />
+            <Route exact path="/service" component={Service} />
+            <Route exact path="/a-propos" component={Privacy} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/about" component={About} />
+          </Switch>
+        </HashRouter>
+
+
+        <Footer></Footer>
+      </div>
     </>
   );
 }

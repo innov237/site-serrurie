@@ -43,8 +43,7 @@ const Lang: React.FC<Color> = (props) => {
     }
 
     return (
-        <div className="menu__item__link mt-2 ml-5">
-
+        <div className="menu__item__link mt-3 ml-5">
             <Select
                 labelId="demo-simple-select-label"
                 id="my-input"
@@ -55,9 +54,9 @@ const Lang: React.FC<Color> = (props) => {
                 inputRef={register}
                 onChange={(e: any) => changeLanguage(e)}
             >
-            <MenuItem value={Language.FR} selected={true}> <img src={Franceflag} alt="fr" className="flag-sm" /><span className="text-black"> FR</span></MenuItem>
-                <MenuItem value={Language.EN}> <img src={Usaflag} alt="en" className="flag-sm" /><span className="text-black"> EN</span></MenuItem>
-                <MenuItem value={Language.DE}> <img src={Allemandflag} alt="de" className="flag-sm" /><span className="text-black"> DE</span></MenuItem>
+            <MenuItem value={Language.FR} selected={true}> <img src={Franceflag} alt="fr" className="flag-sm" /><span className="text-black text-sm"> FR</span></MenuItem>
+                <MenuItem value={Language.EN}> <img src={Usaflag} alt="en" className="flag-sm" /><span className="text-black text-sm"> EN</span></MenuItem>
+                <MenuItem value={Language.DE}> <img src={Allemandflag} alt="de" className="flag-sm" /><span className="text-black text-sm"> DE</span></MenuItem>
 
             </Select>
 

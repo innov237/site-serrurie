@@ -9,7 +9,7 @@ const DownloardApp: React.FC = () => {
     const { t } = useTranslation();
 
     return <>
-        <div className="footer conntainer-fluid downloadSection" id="about">
+        <div className="conntainer-fluid downloadSection" id="about">
             <DividerVertical></DividerVertical>
             <div className="container pb-0 pt-0 d-flex align-items-center justify-content-center">
                 <div className="row align-items-center">

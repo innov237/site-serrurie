@@ -1,8 +1,22 @@
+.floating-action-button {
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: var(--primary-color);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;;
+}
+
 .device-row {
     height: max-content;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .device-row p {
     color: wheat;
     font-size: 20px;
@@ -41,6 +55,7 @@ p {
     width: 100%;
     border-radius: 10px;
 }
+
 .app-card h1 {
     font-size: 20px;
     color: black;
@@ -69,13 +84,13 @@ p {
     width: 100%;
 }
 
-.title{
+.title {
     font-size: 40px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 
-.bg-col{
+.bg-col {
     background-color: #fff;
     box-shadow: 0 1px 3px rgba(6, 231, 81, 0.041), 0 2px 8px rgba(224, 222, 222, 0.76);
     padding: 8px 55px 8px 55px;
@@ -86,12 +101,12 @@ p {
     width: 90%;
 }
 
-.bg-col p{
+.bg-col p {
     color: #28A3E6;
 
 }
 
-.section2{
+.section2 {
     background-color: #1C1C1C !important;
     background-repeat: no-repeat;
     background-position: top right;
@@ -99,13 +114,13 @@ p {
     background-attachment: fixed;
 }
 
-.section4{
+.section4 {
     background-color: #28A3E6;
 }
 
-.section5{
+.section5 {
     /* background-image:url("https://www.nms-distribution.fr/wp-content/uploads/sites/7/2021/03/Bandeau-website-neutre.png"); */
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://transic.theme-land.com/wordpress/wp-content/uploads/2021/05/inner_bg_1-1-1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://transic.theme-land.com/wordpress/wp-content/uploads/2021/05/inner_bg_1-1-1.jpg");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
@@ -113,7 +128,7 @@ p {
 }
 
 
-.card-transparent{
+.card-transparent {
     background-color: #fff;
     border-radius: 5px;
 }

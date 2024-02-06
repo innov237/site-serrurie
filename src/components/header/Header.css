@@ -1,36 +1,62 @@
-.navbar-lg{
+.toptext__nav {
+  position: fixed;
+  height: 65px;
+  z-index: 1;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #61bc45;
+  font-size: 16px;
+  font-weight: bold;
+  color: white !important;
+  border-bottom: 1px solid rgb(30, 29, 29) !important;
+}
+
+.navbar-lg {
   position: fixed;
   width: 100%;
   z-index: 10;
+  margin-top: 65px;
+  background-color: var(--primary-color) !important;
 }
 
 .navbar {
-  background-color: #fff;
   color: white;
   padding-bottom: 0px;
   padding-top: 0px;
-  height: 110px;
+}
+
+.slogan {
+  text-align: center;
+  margin-left: -30px;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 20px;
+  color: var(--danger-color) !important;
+  max-width: 10px;
+  line-height: 20px;
 }
 
 .logo {
-  height: 80px;
+  height: 100px;
+  border-radius: 100px
 }
 
 .nav-link {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 25px;
-  color: #0F377B;
+  color: white;
 }
 
 .nav-link:hover {
-  color: #FFBD59;
+  color: whitesmoke;
 }
 
 .nav-link:after {
   display: block;
   content: "";
-  border-bottom: solid 3px black;
+  border-bottom: solid 3px white;
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
@@ -52,14 +78,15 @@
 }
 
 .menu__collaps {
-  background-image: linear-gradient(to left, #f29a16e5 20%, #e3860cf3 80%), url("../../images/hero2-img.jpg");
-  background-repeat:no-repeat;
+  /* background-image: linear-gradient(to left, #f29a16e5 20%, #e3860cf3 80%), url("../../images/hero2-img.jpg"); */
+  background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   position: fixed;
   z-index: 10;
   width: 100%;
   display: none;
+  background-color: var(--primary-color);
 }
 
 .menu__collaps__items {
@@ -86,6 +113,7 @@
 .menu__collaps__items a {
   color: #fff;
 }
+
 /**
  RESPOSIVE
 **/
@@ -93,7 +121,7 @@
 @media screen and (max-width: 750px) {
   /* Rédigez vos propriétés CSS ici */
 
-  .hidden-sm{
+  .hidden-sm {
     display: none;
   }
 
@@ -104,8 +132,9 @@
   .menu__collaps {
     display: none;
     height: 100vh;
-    margin-top: 100px;
+    margin-top: 160px;
   }
+
 
   .nav-menu {
     display: flex;
@@ -118,7 +147,16 @@
   .logo {
     height: 50px;
   }
+
   /* body {
     overflow: hidden;
   } */
+}
+
+
+.w-20,
+.h-20 {
+  height: 50px;
+  width: 50px;
+  padding: 2px;
 }

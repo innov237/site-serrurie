@@ -1,14 +1,11 @@
 .footer {
-    background-color: #fff;
-}
-
-.contact{
-    background-color: red !important;
+    background-color: var(--primary-color) !important;
+    color: white !important;
 }
 
 .bg-footer{
-    background-color: #000000 !important;
-    color: white;
+    background-color: var(--yellow-color) !important;
+    color: var(--text-title-color) !important;
 }
 
 h3 {

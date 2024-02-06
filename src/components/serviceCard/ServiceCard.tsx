@@ -12,12 +12,13 @@ const ServiceCard: React.FC<Props> = ({
     icon,
     description,
 }) => (
-        <div className="card shadow-sm p-4" id="parent">
-            <img src={icon} alt="icon" className="circular-border" /> <br />
-            <h1>{title}</h1>
-            <div className="divider divider"></div>
-            <p className="mt-4">{description}</p>
+    <div className="card shadow-sm flex align-items-center" id="parent">
+        <img src={icon} alt="icon" className="circular-border" /> <br />
+        <div className='px-2'>
+            <h1 className='text-center'>{title}</h1>
+            <p className="mt-4 text-center">{description}</p>
         </div>
-    );
+    </div>
+);
 
 export default ServiceCard;

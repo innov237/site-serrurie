@@ -1,0 +1,14 @@
+.heading{
+  background-image: url("https://t3.ftcdn.net/jpg/03/02/04/06/360_F_302040655_IEH9RyDlu7LL8YCLjgL1IskhrpOlmlSv.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    /* Rédigez vos propriétés CSS ici */
+    .headerimg {
+      height: 300px !important;
+    }
+  }

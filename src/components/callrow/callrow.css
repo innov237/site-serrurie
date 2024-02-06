@@ -1,0 +1,13 @@
+.callrow{
+    background-image: url("https://www.sm-devis.tn/wp-content/uploads/2020/10/prix-pose-r%C3%A9paration-serrure-tunisie-sm-devis.jpg");
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 70px;
+    background-attachment: fixed;
+}
+
+.text-md{
+    font-size: 25px !important;
+}

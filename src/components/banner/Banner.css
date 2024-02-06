@@ -1,17 +1,22 @@
 .banner-div {
-    background-image: url("../../images/hero2-img.jpg");
+    /* background: url("https://images.pexels.com/photos/279810/pexels-photo-279810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
     background-position: bottom right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    padding: 30px;
-    /* animation: shrink 3s infinite alternate; */
-    padding-top: 130px;
-    object-fit: contain;
-    height: 100vh;
-    display: flex !important;
-    align-items: start !important;
-    flex-direction: column;
-    justify-content: center;
+    height: 115vh;
+}
+
+.banner-form{
+    background-color: #1e9bd5b8 !important;
+    color: var(--yellow-color) !important;
+}
+
+.banner-form .form-label{
+    color: var(--yellow-color) !important;
+}
+
+.yellow-color{
+    color: var(--yellow-color);
 }
 
 .slider-content {
@@ -35,6 +40,7 @@ h1 {
 .hero__title {
     margin-bottom: 1rem;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .item {
@@ -80,15 +86,17 @@ h1 {
 }
 
 .btn-primary {
-    background-color: white;
+    background-color: var(--primary-color) !important;
+    border: none;;
     color: black;
-    font-weight: 500;
-    border-radius: 20px;
+    font-weight: bold;
+    border-color: transparent !important;
+    color: white !important;
 }
 
 .btn:hover {
     background-color: #fff;
-    color: #ffbd59;
+    color: var(--primary-color);
 }
 
 .contact-usBtn {
@@ -123,10 +131,15 @@ h1 {
     padding: 2px;
 }
 
+.add-pading{
+    margin-top: 200px;
+}
+
 @keyframes shrink {
     0% {
         background-size: 110% 110%;
     }
+
     100% {
         background-size: 100% 100%;
     }
@@ -157,6 +170,7 @@ h1 {
         -webkit-transform: translateX(0);
     }
 }
+
 @keyframes shake {
     0% {
         transform: translateX(0);
@@ -193,12 +207,11 @@ h1 {
 
     .banner-div {
         padding: 5px !important;
-        padding-top: 100px !important;
+        padding-top: 10px !important;
         /* background-color: red !important; */
-        background-image: linear-gradient(to left, #f29a16b3 10%, #e3860ce2 90%), url("../../images/hero2-img.jpg");
+        /* background-image: linear-gradient(to left, #f29a16b3 10%, #e3860ce2 90%), url("../../images/hero2-img.jpg"); */
         background-position: bottom center;
         background-size: cover;
-        color: white !important;
         height: max-content;
     }
 
@@ -214,6 +227,7 @@ h1 {
     h1 {
         font-size: 40px;
     }
+
     .hero__title {
         width: 100% !important;
         min-height: 300px;

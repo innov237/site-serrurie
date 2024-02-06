@@ -1,13 +1,13 @@
 import React, { useEffect, useRef } from "react";
 import { DividerVertical } from "../../components/dividerVertical/DividerVertical";
 import "./service.css";
-import iconTimer from '../../images/full-time.png';
 import iconItineraire from '../../images/itineraire.png';
 import iconMoney from '../../images/save-money.png';
 import iconLike from '../../images/like.png';
 import ServiceCard from "../../components/serviceCard/ServiceCard";
-import Hero from "../../components/hero/hero";
 import { useTranslation } from 'react-i18next';
+import PageHeading from "../../components/page-heading/page-heading";
+import AboutComponent from "../../components/about/AboutComponent";
 
 const Service: React.FC = () => {
 
@@ -38,26 +38,11 @@ const Service: React.FC = () => {
   });
 
   return <>
-    <div className="content-s" ref={myRef}>
-      <Hero subTitle="|" title={t('common.service')} />
-      <section>
-        <div className="services-row container-fluid primary-bg">
-          <DividerVertical></DividerVertical>
-          <div className="container container-sm">
-            <div className="row pt-5">
-              {serviceData.map((data) => (
-                <div className="col-md-4">
-                  <ServiceCard
-                    icon={data.icon}
-                    title={data.title}
-                    description={data.description}
-                  ></ServiceCard>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+    <div className="conntainer-fluid section2" id="about" ref={myRef}>
+      <div style={{ paddingTop: "100px" }}>
+        <PageHeading />
+        <AboutComponent />
+      </div>
     </div>
   </>
 };

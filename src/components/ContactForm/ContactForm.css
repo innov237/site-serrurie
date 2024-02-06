@@ -4,16 +4,18 @@
 }
 
 .form-control{
-    height: 55px;
-    border-radius: 20px;
-    padding-left:20px;
-    font-size: 20px;
+    height: 45px;
+    border-radius: 5px;
+    padding-left:10px;
+    font-size: 15px;
+    background-color: #f7f7f7;
+    border: none !important;
 }
 
 .form-label{
     color: black;
-    margin-left: 25px;
-    font-size: 20px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 @media screen  and (max-width: 750px){

@@ -1,8 +1,8 @@
 .card {
-    background-color: #fff;
+    background-color: white;
     margin-bottom: 20px;
     border: none;
-    padding: 0px; 
+    padding: 0px;
     min-height: 420px;
 }
 
@@ -12,8 +12,11 @@
 
 .card img {
     margin-bottom: 5px;
-    width: 70px;
+    width: 100%;
     margin-bottom: 0px;
+    border: none;
+    height: 200px !important;
+    border-radius: 10px !important;
 }
 
 .card p {
@@ -26,14 +29,14 @@
 }
 
 .divider {
-    height: 10px;
-    width: 60px;
-    background-color: #FFBD59;
-    border-radius: 20px;
-    border: 1px dashed #2ba5e6;
+    height: 8px;
+    width: 200px;
+    background-color: #2ba5e6;
+    border-radius: 0px;
+    margin-bottom: 20px;
 }
 
-.circular-border{
+.circular-border {
     border: 1px dashed #2ba5e6;
     padding: 5px;
     border-radius: 5px;
