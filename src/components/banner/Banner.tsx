@@ -4,6 +4,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { useTranslation } from 'react-i18next';
 import { Carousel } from 'react-bootstrap';
+import bannerImage from "../../images/img1.png";
 
 const Banner: React.FC = () => {
 
@@ -60,7 +61,7 @@ const Banner: React.FC = () => {
                     </div>
 
                     <div className="col-md-5">
-                        <img src="https://www.ongo237.com/assets/img/company-img.png" className="img-fluid" alt="" />
+                        <img src={bannerImage} className="img-fluid" alt="" />
                     </div>
                 </div>
             </div>

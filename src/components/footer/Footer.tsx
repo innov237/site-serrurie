@@ -12,7 +12,7 @@ import { useTranslation } from 'react-i18next';
 export const Footer = () => {
     const { t } = useTranslation();
     return (
-        <div className="footer contact">
+        <div className="footer contact container-fluid">
             <div className="container py-100">
                 <div className="row align-items-start justify-content-center">
                     <div className="col-md-4 pb-4">

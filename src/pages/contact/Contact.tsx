@@ -20,14 +20,14 @@ const Contact: React.FC = () => {
 
     <div className="conntainer-fluid" ref={myRef}>
       <div style={{ paddingTop: "100px" }}>
-        <PageHeading></PageHeading>
+      <PageHeading title="Contact" description="Contactez-nous" />
         <div className="container py-100">
           <div className="row justify-center align-items-center">
             <div className="col-md-6">
-              <span className="underline-primary text-bold">ELÉRHETŐSÉGEINK</span>
-              <h1 className="title">Duguláselhárítás és csatornatisztítás Győrben</h1>
+              <span className="underline-primary text-bold">Contactez-nous</span>
+              <h1 className="title">Contactez-nous pour une Assistance Immédiate</h1>
               <p className="subTitle mb-4">
-                Cégünk duguláselhárítással, csatornatisztítással és kamerás csatornavizsgálattal foglalkozik. Immáron több mint 10 éve hárítunk el dugulásokat, tisztítunk és ellenőrzünk csatornarendszereket és állunk Győri lakosok, cégek és szövetkezetek számára Non-Stop rendelkezésre. Kedvező árakon dolgozunk, minden általunk elvégzett duguláselhárításra pedig 1 hónap garanciát vállalunk.
+              Besoin d'aide rapidement ? Notre équipe est là pour vous ! Que vous ayez perdu vos clés, rencontré un problème de serrure ou besoin de conseils en matière de sécurité, nous sommes disponibles pour vous fournir une assistance immédiate et professionnelle. Contactez-nous dès maintenant et retrouvez la tranquillité d'esprit en sachant que vous êtes entre de bonnes mains.
               </p>
               <p className='text-bold'>
                 <svg width={23} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 mr-2 primary-color">
